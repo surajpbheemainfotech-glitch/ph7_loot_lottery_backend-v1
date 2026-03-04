@@ -19,7 +19,7 @@ const HOST = process.env.HOST
 
 app.use(cors(
     {
-        origin: ["http://localhost:5173", "https://ph7lootlotterybackend-v1-production.up.railway.app/", "http://localhost:5174"],
+        origin: ["http://localhost:5173", "https://ph7-frontend.vercel.app", "http://localhost:5174"],
 
         credentials: true
     }
